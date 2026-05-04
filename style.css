@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+} 
+
+body{
+    font-family: Helvetica;
+    background-color: maroon;
+}
+
+nav{
+    border-bottom: 1px solid gold;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    margin: auto;
+    align-items: center;
+    height: 80px;
+}
+
+.nav-brand{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: gold;
+}
+
+.nav-menu{
+   float: right;
+   color:black;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: maroon;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    font-family: Verdana;
+    color: gold;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Arial;
+    color: white;
+}
+
+h2{
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: gold;
+    width: 100%;
+    line-height: 50px;
+}
+
+.tombol{
+    background: gold;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.konten{
+    background-color: white;
+    padding: 20px;
+}
+
+.kolom{
+    width: 30%;
+    display: inline-table;
+    margin-right: 2%;
+    vertical-align: top;
+}
